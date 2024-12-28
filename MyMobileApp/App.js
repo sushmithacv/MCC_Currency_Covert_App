@@ -4,6 +4,7 @@ import { Divider, PaperProvider, Text } from "react-native-paper";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import Home from "./components/Home";
 import { SafeAreaView } from "react-native-web";
+import ContactUs from "./components/ContactUs";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       <SafeAreaView>
         <ScrollView>
           <View style={styles.container}>
-            <Home />
+            {/* <Home /> */}
+            <ContactUs/>
             <StatusBar style="auto" />
           </View>
         </ScrollView>
